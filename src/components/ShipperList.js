@@ -11,7 +11,7 @@ const ShipperList = () => {
         axios
             .get(url, { headers: { Accept: 'application/json' } })
             .then((resp) => resp.data) // response body is accessed via resp.data
-            .then((data) => data.shippers)
+            .then((data) => data.shipperList)
             .then(setShippers);
     }, []);
 
