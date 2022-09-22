@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 
-const url = 'http://44.202.111.172:8080/api/shippers';
+const url = 'http://3.88.10.138:8080/api/shippers';
 // const url = 'http://localhost:3000/shipper-list.json';
 
 const ShipperList = () => {
